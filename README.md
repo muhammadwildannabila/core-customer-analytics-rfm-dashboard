@@ -2,137 +2,201 @@
 
 # 🛒 Customer Intelligence & Recommendation System
 
+### Data-Driven Customer Segmentation and Product Recommendation for Retail Analytics
+
 ![Python](https://img.shields.io/badge/Python-3.10-blue?style=for-the-badge&logo=python)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?style=for-the-badge&logo=numpy)
 ![Plotly](https://img.shields.io/badge/Plotly-Interactive%20Visualization-3F4F75?style=for-the-badge&logo=plotly)
 ![Streamlit](https://img.shields.io/badge/Streamlit-Live%20Dashboard-FF4B4B?style=for-the-badge&logo=streamlit)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Customer%20Analytics-orange?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Customer%20Analytics-purple?style=for-the-badge)
-![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-🔗 **Live Demo:**  
-👉 https://mwildannabila-customer-analytics.streamlit.app/
+### 🟢 Core Project (Data Science / Machine Learning) 2025
+
+🔗 **Live Demo:** https://mwildannabila-customer-analytics.streamlit.app/
 
 </div>
 
 ---
 
-## 🟢 Core Project (Data Science / Machine Learning) 2025
+# 🖥️ Dashboard Preview
 
-An end-to-end customer analytics system designed to transform transactional retail data into actionable business insights.
+![Dashboard Overview](assets/dashboard-overview.png)
 
-This project integrates **RFM-based segmentation**, **behavioral analysis**, and **product recommendation** within an interactive dashboard environment, enabling data-driven decision making for customer strategy and business optimization.
-
----
-
-## 🧠 Project Overview
-
-This project presents a data-driven approach to understanding customer behavior using transactional retail data.
-
-By applying **RFM (Recency, Frequency, Monetary)** modeling, customers are segmented into meaningful groups such as:
-
-- 💎 High Value  
-- 🟢 Regular  
-- ⚠️ At Risk  
-
-The segmentation is further utilized to generate product-level insights and recommendation strategies, all accessible through an interactive dashboard built with Streamlit.
+> Interactive customer analytics dashboard for segmentation, behavioral analysis, and recommendation-driven business insights.
 
 ---
 
-## ⚙️ Key Features
+# 🧠 Project Overview
 
-- RFM-based Customer Segmentation (Quantile Scoring)  
-- Interactive Customer Intelligence Dashboard  
-- Product Recommendation based on Revenue Patterns  
-- Customer Behavior Mapping (Interactive Scatter Plot)  
-- Segment Distribution Analysis  
-- Real-time Data Exploration via Streamlit Deployment  
+This project develops an end-to-end customer analytics platform designed to transform retail transaction data into actionable business intelligence.
 
----
+The system combines **RFM (Recency, Frequency, Monetary) segmentation**, customer behavior analysis, and product recommendation to support data-driven marketing strategies, customer retention initiatives, and revenue optimization.
 
-## 📊 Dashboard Preview
-
-### 🖥️ Full Dashboard
-![Dashboard](assets/dashboard-overview.png)
+The final solution is deployed as an interactive Streamlit dashboard with executive-level visualizations and filtering capabilities.
 
 ---
 
-### 📈 Customer Overview
+# 🎯 Project Objectives
+
+- Segment customers using RFM analysis.
+- Identify high-value, regular, and at-risk customers.
+- Analyze purchasing behavior and revenue patterns.
+- Generate product recommendation insights.
+- Deploy an interactive customer intelligence dashboard.
+
+---
+
+# 🗂️ Dataset Overview
+
+| Attribute | Value |
+|---------|-------|
+| Dataset Type | Retail Transaction Dataset |
+| Domain | Customer Analytics |
+| Key Variables | Customer ID, Invoice Date, Quantity, Unit Price |
+| Analytical Features | Recency, Frequency, Monetary (RFM) |
+| Output Segments | High Value, Regular, At Risk |
+
+---
+
+# 🧪 Methodology
+
+```text
+Data Cleaning & Preprocessing
+        ↓
+Feature Engineering
+        ↓
+RFM Calculation
+        ↓
+Customer Segmentation
+        ↓
+Behavioral Analysis
+        ↓
+Product Recommendation
+        ↓
+Executive Dashboard (Streamlit)
+        ↓
+Live Deployment
+```
+
+---
+
+# ✨ Key Features
+
+- 🧮 RFM-based customer segmentation
+- 👥 Customer behavior mapping
+- 🛍️ Product recommendation insights
+- 📊 Segment distribution analysis
+- 📈 Interactive executive dashboard
+- 🔎 Real-time filtering and exploration
+
+---
+
+# 🖼️ Additional Insights
+
+## 📈 Customer Overview
 ![Customer Overview](assets/customer-overview.png)
 
----
-
-### 🛍️ Product Recommendation
+## 🛍️ Product Recommendation
 ![Recommendation](assets/recommendation.png)
 
----
-
-### 📊 Segment Distribution
+## 📊 Segment Distribution
 ![Segment Distribution](assets/segment-distribution.png)
 
----
-
-### 🧠 Customer Behavior Map
+## 🧠 Customer Behavior Map
 ![Behavior Map](assets/behavior-map.png)
 
 ---
 
-## 🧠 Key Insights
+# 🔍 Key Insights
 
-- Customer behavior exhibits **high skewness**, indicating strong dependence on a small group of high-value customers  
-- A significant portion of customers fall into the **“At Risk” segment**, suggesting potential churn risk  
-- Transaction patterns reveal **low purchasing frequency**, highlighting engagement gaps  
-- Revenue distribution is concentrated on a limited number of products  
-- Customer segmentation effectively distinguishes behavioral clusters for targeted strategies  
-
----
-
-## 🎯 Business Impact
-
-- Enables **targeted marketing strategies** based on customer segmentation  
-- Supports **customer retention and churn mitigation**  
-- Improves **product strategy via data-driven insights**  
-- Facilitates **personalized recommendation systems**  
-- Provides a foundation for **customer lifetime value optimization**  
+- Revenue is highly concentrated among a small group of high-value customers.
+- A significant portion of customers are classified as At Risk, indicating potential churn.
+- Purchasing frequency is uneven, highlighting engagement opportunities.
+- Product performance analysis supports targeted recommendation strategies.
 
 ---
 
-## 🧰 Tech Stack
+# 👨‍💻 My Role
 
-- Python (Pandas, NumPy)  
-- Data Visualization (Plotly)  
-- Streamlit (Interactive Dashboard)  
-- RFM Modeling (Customer Segmentation)  
-- Data Processing & Feature Engineering  
+This is a fully independent end-to-end project covering:
 
----
-
-## ⚠️ Limitations
-
-- RFM segmentation assumes static customer behavior  
-- No real-time data pipeline integration  
-- Recommendation system is based on aggregate revenue (not personalized)  
+- Data cleaning and preprocessing
+- RFM feature engineering
+- Customer segmentation
+- Behavioral analysis
+- Product recommendation design
+- Dashboard development and deployment
+- Technical documentation
 
 ---
 
-## 🔮 Future Improvements
+# 🚧 Key Challenge
 
-- Machine Learning-based Recommendation System (Collaborative Filtering)  
-- Clustering comparison (KMeans vs RFM)  
-- Customer Lifetime Value (CLV) prediction  
-- Real-time analytics integration  
-- Advanced personalization engine  
+**Challenge:** Transactional data exhibited highly skewed customer spending behavior, making segmentation thresholds sensitive to outliers.
+
+**Solution:** I applied quantile-based RFM scoring to create robust and interpretable customer segments that better reflect real purchasing patterns.
 
 ---
 
-## 👨‍💻 Author
+# 💼 Business Impact
 
-| Name | Role |
-|------|------|
-| **Muhammad Wildan Nabila** | Data Scientist / Machine Learning Engineer |
+This platform enables businesses to:
+
+- Identify and retain high-value customers.
+- Detect customers at risk of churn.
+- Improve targeted marketing campaigns.
+- Optimize product strategies.
+- Support customer lifetime value initiatives.
 
 ---
 
-## 🚀 Closing
+# 🛠️ Technology Stack
 
-Transforming transactional data into strategic customer intelligence through modern data science and interactive analytics.
+- Python
+- Pandas
+- NumPy
+- Plotly
+- Streamlit
+- RFM Modeling
+- Feature Engineering
+
+---
+
+# 🔮 Future Improvements
+
+- Collaborative filtering recommendation engine
+- Customer Lifetime Value (CLV) prediction
+- Clustering comparison (RFM vs K-Means)
+- Real-time analytics pipeline
+- Advanced personalization
+
+---
+
+# 🎯 Career Relevance
+
+Relevant for roles in:
+
+- Data Analyst
+- Data Scientist
+- Business Intelligence Analyst
+- Machine Learning Engineer
+- CRM Analyst
+- Customer Analytics Specialist
+
+---
+
+# 👨‍💻 Author
+
+**Muhammad Wildan Nabila**  
+Informatics — Universitas Muhammadiyah Malang
+
+---
+
+<div align="center">
+
+### 🛒 Transforming Transaction Data into Strategic Customer Intelligence
+
+</div>
